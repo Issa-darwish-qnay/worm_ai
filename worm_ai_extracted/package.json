@@ -1,0 +1,23 @@
+{
+  "name": "wormai-chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ai": "^7.0.172",
+    "next": "^16.4.6",
+    "ollama-ai-provider-v2": "^4.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.7",
+    "typescript": "^5.9.3"
+  }
+}
